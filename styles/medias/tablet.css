@@ -58,6 +58,16 @@ header {
     font-size: 14px;
 }
 
+.prototypes__layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.prototypes__title{
+    max-width: 100%;
+}
 .prototypes__img{
     width: 80%;
     max-width: 35rem;

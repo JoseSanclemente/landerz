@@ -57,6 +57,10 @@ header {
     font-size: 14px;
 }
 
+.prototypes__layout {
+    display: block;
+}
+
 .prototypes__title {
     font-size: 24px;
     line-height: 32px;
