@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landerz</title>
+    <title>Cleanly</title>
     <link rel="icon" type="image/png" href="./assets/favicon.ico" />
 
     <link rel="stylesheet" href="./styles/styte.css">
@@ -16,22 +16,21 @@
     <link rel="stylesheet" href="./styles/medias/small.css" media="(max-width:1280px">
     <link rel="stylesheet" href="./styles/medias/tablet.css" media="(max-width:1024px">
     <link rel="stylesheet" href="./styles/medias/mobile.css" media="(max-width:480px)">
-    <script src="./scripts/fetchAPI.js"></script>
+    <!--   <script src="./scripts/fetchAPI.js"></script> -->
 </head>
 
 <body>
     <header>
         <nav class="navbar">
+            <span class="navbar__logo">Cleanly <span class="icon-leaf"></span> </span>
             <ul class="navbar__links-group">
-                <li class="navbar__link"><a href="#">Home</a></li>
-                <li class="navbar__link"><a href="#features">Features</a></li>
-                <li class="navbar__link"><a href="#about-us">About Us</a></li>
-                <li class="navbar__link"><a href="#testimonials">Testimonials</a></li>
-                <li class="navbar__link"><a href="">Blog</a></li>
-                <li class="navbar__link"><a class="contact-link" href="#contact">Contact</a></li>
+                <li class="navbar__link"><a href="#">Inicio</a></li>
+                <li class="navbar__link"><a href="#features">Beneficios</a></li>
+                <li class="navbar__link"><a href="#about-us">Sobre nosotros</a></li>
+                <li class="navbar__link"><a class="contact-link" href="#contact">Contacto</a></li>
             </ul>
+            <button class="hero__cta">Agendar servicio</button>
         </nav>
-        <span class="navbar__logo">Landerz</span>
         <nav class="navbar__burger">
             <div class="navbar__burger-layout">
                 <span class="navbar__burger-logo">Landerz</span>
@@ -61,211 +60,147 @@
     <main>
         <section id="hero" class="hero-section">
             <div class="hero__container">
-                <h1 class="hero__title">Grow Your Business Faster</h1>
-                <p class="hero__text">Build beautiful, faster and accesible landing
-                    pages without writing a line of
-                    code and surprise your future costumers.</p>
-                <button class="hero__cta">Get started</button>
+                <h1 class="hero__title">Déjanos el <span class="text--green">trabajo sucio</span> a nosotros</h1>
+                <p class="hero__text">Limpiamos y desinfectamos tu hogar u oficina, utilizando productos de limpieza
+                    100% amigables con el medio ambiente.</p>
+                <button class="hero__cta">Agendar servicio</button>
             </div>
-            <img class="hero__img" src="./assets/images/hero_image.png"
+            <img class="hero__img" src="https://svgur.com/i/Ws3.svg"
                 alt="An illustration of a woman working on her laptop">
         </section>
+        <section class="steps-section">
+            <h2 class="steps__title">Relájate, nosotros nos encargamos <span class="text--green icon-heart"></span></h2>
+            <div class="steps__layout">
+                <div class="steps__step">
+                    <img src="https://svgur.com/i/Wrh.svg" alt="">
+                    <span>Paso 1</span>
+                    <p>Agenda una servicio en nuestro sitio web para el día y la hora que lo
+                        necesites.</p>
+
+                </div>
+                <div class="steps__step">
+                    <img src="https://svgur.com/i/WqJ.svg" alt="">
+                    <span>Paso 2</span>
+                    <p>Nuestro personal experto en limpieza se dirigirá a tu hogar u oficina.</p>
+
+                </div>
+                <div class="steps__step">
+                    <img src="https://svgur.com/i/WsR.svg" alt="">
+                    <span>Paso 3</span>
+                    <p>Disfruta de la tranquilidad de tener un espacio limpio mientras realizas
+                        otras actividades.</p>
+                </div>
+            </div>
+        </section>
         <section id="features" class="features-section">
-            <h2 class="features__title">Features</h2>
+            <h2 class="features__title">Amamos brindarte <span class="text--green">la mejor experiencia</span></h2>
             <div class="features__grid">
                 <div class="features__card">
                     <div class="features__img">
                         <span class="icon-refresh"></span>
                     </div>
-                    <span>Business Consulting</span>
-                    <p>We help you to improve the effiency and performance of your company.</p>
-                    <a href="">Learn more</a>
+                    <span>Productos orgánicos</span>
+                    <p>Usamos productos 100% amigables para el medio ambiente</p>
                 </div>
                 <div class="features__card">
                     <div class="features__img">
                         <span class="icon-store_mall_directory"></span>
                     </div>
-                    <span>Market Analysis</span>
-                    <p>Know what is the best to build a landing page based on your marketplace.</p>
-                    <a href="">Learn more</a>
+                    <span>Disponibilidad</span>
+                    <p>Puedes contar con nosotros en todo momento, incluso para el mismo día.</p>
                 </div>
                 <div class="features__card">
                     <div class="features__img">
                         <span class="icon-shopping_basket"></span>
                     </div>
-                    <span>User Monitoring</span>
-                    <p>Keep track of every user that visited your website and how they use it.</p>
-                    <a href="">Learn more</a>
+                    <span>Seguridad y confianza</span>
+                    <p>Contamos con protócolos de seguridad estrictos para asegurar tu tranquilidad</p>
                 </div>
                 <div class="features__card">
                     <div class="features__img">
                         <span class="icon-rotate-left"></span>
                     </div>
-                    <span>Faster and Secure</span>
-                    <p>Don't worry about where is going to be deploy your landing page, our hosting service will do the
-                        job
-                        for you.</p>
-                    <a href="">Learn more</a>
+                    <span>Plan de limpieza</span>
+                    <p>Tenemos planes personalizados que se adaptan a tus necesidades</p>
                 </div>
                 <div class="features__card">
                     <div class="features__img">
                         <span class="icon-smile-o"></span>
                     </div>
-                    <span>Customer Satisfied</span>
-                    <p>Create surveys to get feedback from your users and know what makes them happy.</p>
-                    <a href="">Learn more</a>
+                    <span>Cultura</span>
+                    <p>Apoyamos a todo nuestro personal para asegurarles un futuro brillante</p>
                 </div>
                 <div class="features__card">
                     <div class="features__img">
                         <span class="icon-power"></span>
                     </div>
-                    <span>Plug & Play</span>
-                    <p>It's just like playing with Legos! Drag and drop what you need and start building the landing
-                        page of your dreams.</p>
-                    <a href="">Learn more</a>
-                </div>
-            </div>
-        </section>
-        <section id="prototypes" class="prototypes-section">
-            <img class="prototypes__img" src="./assets/images/prototypes.png" alt="Prototype of a landing page">
-            <div class="prototypes__layout">
-                <h2 class="prototypes__title">Create interactive prototypes</h2>
-                <p class="prototypes__text"> Build dynamic prototypes for desktop, tablet and mobile to do usability
-                    test and be sure that you are creating what your clients need.</p>
-                <ul class="prototypes__list">
-                    <li>
-                        <span class="prototypes__icon icon-check"></span>
-                        <span class="prototypes__item">Easly share your prototype with anyone</span>
-                    </li>
-                    <li>
-                        <span class="prototypes__icon icon-check"></span>
-                        <span class="prototypes__item">Record each test session and create Hotmaps</span>
-                    </li>
-                </ul>
-                <div class="prototypes__card">
-                    <div class="prototypes__card-layout">
-                        <img class="prototypes__card-img" src="./assets/images/person_1.jpeg"
-                            alt="Amalia G, Co-Founder of XYZ Inc.">
-                        <div class="prototypes__card-profile">
-                            <span><b>Amalia G</b></span>
-                            <span>Co-Founder, XYZ Inc.</span>
-                        </div>
-                    </div>
-                    <p>
-                        <i>
-                            "Landerz help me to understand my clients and build a landing page that fit perfectly with
-                            them."
-                        </i>
-
-                    </p>
+                    <span>Tranquilidad</span>
+                    <p>Mejoramos tu calidad de vida sin que tengas que esforzarte</p>
                 </div>
             </div>
         </section>
         <section id="about-us" class="about-section">
-            <h2 class="about__title">About Us</h2>
             <div class="about__layout">
-                <img class="about__img" src="./assets/images/about_img.jpeg" alt="Two persons coding on their laptops">
+                <img class="about__img" src="https://svgur.com/i/Wsb.svg" alt="Two persons coding on their laptops">
                 <div class="about__container">
-                    <h3 class="about__subtitle">We love bringing the best experiences to you</h3>
-                    <p class="about__text">We know that start thinking about building a landing page sometimes could be
-                        intimidating. For that reason, we work hard each day to bring you an easy way to create yours
-                        and make you fall in love with what you are doing, like us.</p>
-                    <button class="about__cta">Work with us</button>
+                    <h2 class="about__title">Nuestro aporte a un <span class="text--green">mundo más limpio</span></h2>
+                    <p class="about__text">Creemos firmemente que es posible combinar la tecnología, el
+                        cuidado al medio ambiente y la tranquilidad de
+                        tener un hogar limpio, en un servicio de alta calidad para todos.
+                    </p>
+                    <button class="about__cta">Trabaja con nosotros</button>
                 </div>
             </div>
         </section>
-        <section id="testimonials" class="testimonial-section">
-            <h2 class="testimonial__title">Testimonials</h2>
-            <div class="testimonial__slides">
-                <div class="testimonial__slide">
-                    <img class="testimonial__img" src="./assets/images/testimonial_1.jpeg"
-                        alt="A picture of Leanne Graham">
-                    <p class="testimonial__text"><i> "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil
-                            animi
-                            dolores
-                            eveniet fuga tempore eaque
-                            tenetur magnam iure ad inventore, libero minima ea fugit rem, repellat, facere deleniti
-                            sequi
-                            ab?"</i></p>
-                    <span class="testimonial__name">John Smith</span>
-                </div>
-                <div class="testimonial__slide">
-                    <img class="testimonial__img" src="./assets/images/testimonial_2.jpeg"
-                        alt="A picture of Ervin Howell">
-                    <p class="testimonial__text"><i> "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil
-                            animi
-                            dolores
-                            eveniet fuga tempore eaque
-                            tenetur magnam iure ad inventore, libero minima ea fugit rem, repellat, facere deleniti
-                            sequi
-                            ab?"</i></p>
-                    <span class="testimonial__name">John Smith</span>
-                </div>
-                <div class="testimonial__slide">
-                    <img class="testimonial__img" src="./assets/images/testimonial_3.jpeg"
-                        alt="A picture of Clementine Bauch">
-                    <p class="testimonial__text"><i> "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil
-                            animi
-                            dolores
-                            eveniet fuga tempore eaque
-                            tenetur magnam iure ad inventore, libero minima ea fugit rem, repellat, facere deleniti
-                            sequi
-                            ab?"</i></p>
-                    <span class="testimonial__name">John Smith</span>
-                </div>
-            </div>
-            <div class="testimonial__slides-control">
-                <div class="testimonial__slide-btn"></div>
-                <div class="testimonial__slide-btn"></div>
-                <div class="testimonial__slide-btn"></div>
+        <section id="contact" class="contact-section">
+            <h2 class="contact__title">¿Quieres más información?</h2>
+            <div class="contact__layout">
+                <form class="contact__form" action="">
+                    <h3 class="contact__form-title">Formulario de contacto</h3>
+                    <div class="contact__input-container">
+                        <div class="contact__form-input">
+                            <label for="">
+                                Nombre
+                            </label>
+                            <input type="text">
+                        </div>
+                        <div class="contact__form-input">
+                            <label for="">
+                                Apellido
+                            </label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="contact__form-input">
+                        <label for="">
+                            Correo electrónico
+                        </label>
+                        <input type="text">
+                    </div>
+                    <div class="contact__form-input">
+                        <label for="">
+                            Asunto
+                        </label>
+                        <input type="text">
+                    </div>
+                    <div class="contact__form-input">
+                        <label for="">
+                            ¿En qué podemos ayudarte?
+                        </label>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <input class="contact__form-btn" type="submit" value="Enviar mensaje">
+                </form>
+                <img class="contact__img" src="https://svgur.com/i/WqA.svg" alt="">
             </div>
 
         </section>
-        <section id="contact" class="contact-section">
-            <h2 class="contact__title">Get In Touch</h2>
-            <form class="contact__form" action="">
-                <h3 class="contact__form-title">Contact Form</h3>
-                <div class="contact__input-container">
-                    <div class="contact__form-input">
-                        <label for="">
-                            First Name
-                        </label>
-                        <input type="text">
-                    </div>
-                    <div class="contact__form-input">
-                        <label for="">
-                            Last Name
-                        </label>
-                        <input type="text">
-                    </div>
-                </div>
-                <div class="contact__form-input">
-                    <label for="">
-                        Email
-                    </label>
-                    <input type="text">
-                </div>
-                <div class="contact__form-input">
-                    <label for="">
-                        Subject
-                    </label>
-                    <input type="text">
-                </div>
-                <div class="contact__form-input">
-                    <label for="">
-                        How can we help you?
-                    </label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                </div>
-                <input class="contact__form-btn" type="submit" value="Send Message">
-            </form>
-        </section>
     </main>
     <footer class="footer">
-        <span>Copyright 2021 All rights reserved</span>
+        <span>Copyright © 2021 Todos los derechos resevados</span>
     </footer>
     <script src="./scripts/burger.js"></script>
-    <script src="./scripts/slides.js"></script>
+    <!-- <script src="./scripts/slides.js"></script> -->
 </body>
 
 </html>
