@@ -193,7 +193,21 @@ header {
 
 .steps__step img {
     height: 11rem;
+    opacity: 0;
+    transform: translateY(-5rem);
 }
+
+.steps__step:nth-child(1) img {
+    transition: opacity .5s ease-in , transform .6s ease-out;
+}
+.steps__step:nth-child(2) img{
+    transition: opacity .5s ease-in .3s, transform .6s ease-out .3s;
+}
+
+.steps__step:nth-child(3) img{
+    transition: opacity .5s ease-in .5s, transform .6s ease-out .5s;
+}
+
 
 .steps__step span {
     display: block;
@@ -239,6 +253,11 @@ header {
     background-color: white;
     border-radius: 8px;
     box-shadow: var(--grey-shadow);
+    transition: transform .2s ease-in;
+}
+
+.features__card:hover {
+    transform: scale(1.05);
 }
 
 .features__img {

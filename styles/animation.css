@@ -1,0 +1,4 @@
+.steps__step .show-on-scroll {
+    opacity: 1;
+    transform: translateY(0);
+   }
